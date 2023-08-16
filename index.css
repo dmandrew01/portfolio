@@ -210,7 +210,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--grey);
+    color: var(--pink);
 }
 
 .btn {
@@ -219,7 +219,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--grey);
+    border: 1px solid  var(--pink);
     font-weight: 400;
 }
 
@@ -243,20 +243,20 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--grey);
+    background: var(--pink);
 }
 
-.btn--grey {
-    background: var(--grey);
+.btn--pink {
+    background: var(--pink);
     transition: all 0.2s;
 }
 
-.btn--grey::after {
+.btn--pink::after {
     display: none;
 }
 
-.btn--grey:hover,
-.btn--grey:focus {
+.btn--pink:hover,
+.btn--pink:focus {
     background: transparent;
 }
 
@@ -266,7 +266,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--grey);
+    border-bottom: 1px solid var(--pink);
 }
 
 .link__text::after {
@@ -289,7 +289,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--grey);
+    background: var(--pink);
 }
 
 .link__text span {
